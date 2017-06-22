@@ -1,6 +1,8 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="İsmailbgr.Github.io">
 <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
 <style>
 
@@ -8,8 +10,27 @@ body{
 background-color:lightgray;
 font-family: 'Inconsolata', monospace;
 text-align:center;
+animation:fadein 2s;
 }
 
+#uyari{
+animation: uyar 2s linear 2s;
+opacity:0;
+}
+
+@keyframes uyar{
+
+25% {font-size:40px;color:black;opacity:1;}
+50% {font-size:40px;color:red;opacity:1;}
+75% {font-size:40px;color:red;opacity:1;}
+100% {}
+
+}
+
+@keyframes fadein{
+0%{opacity:0;}
+100%{opacity:1}
+}
 </style>
 </head>
 
@@ -19,5 +40,9 @@ text-align:center;
 <p> </p>
 <p>Devamı</p>
 <p>Çok Yakında...</p>
+
+
+<h1 id="uyari" style="">Ana Ekrana Menü Kısmından Ana Ekrana Ekleyebilirsiniz</h1>
+
 </body>
 </html>
