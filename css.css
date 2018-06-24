@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+body {
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(blue, black);
+    color: white;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    text-shadow: 0px 5px 5px black;
+}
+
+h1{
+    padding: 10px;
+    border: solid white 2px;
+    box-shadow: 0px 5px 50px 5px,inset 0px 0px 5px 3px;
+}
+
+#content{
+    background: radial-gradient(rgba(0,0,0,.1), rgba(0,0,0,.4));
+    padding: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: solid white 2px;
+}
+
+.instagram{
+    color: #dc2743; 
+}
+
+.snapchat{
+   color: yellow;
+}
+
+.youtube{
+    color:red;
+}
+button{
+    font-size: 20px;
+    background: radial-gradient(rgba(0,0,0,.1), rgba(255,255,255,.4));
+    border: none; //aqua;
+    color: white;
+    font-family: 'Pacifico', cursive;
+    text-decoration: underline;
+    border-radius: 10px;
+}
+
+a:hover{
+    text-shadow: 0px 5px 15px;
+    
+    transition: 0.5s;
+}
